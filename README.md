@@ -7,10 +7,6 @@ It is a very light python code that extract all tags (such as us-gaap or ix or d
 Install this module (download on your local machine) or
 pip install git+https://github.com/inVisement/xbrl
 
-import xbrl
-
-xbrl(url)
-
 ## Example
 ``` python
 url = 'https://www.xbrl.org/ixbrl-samples/faurecia-info-by-segment-viewer.html'
