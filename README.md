@@ -8,6 +8,7 @@ Install this module (download on your local machine) or
 pip install git+https://github.com/inVisement/xbrl
 
 import xbrl
+
 xbrl(url)
 
 ## Example
