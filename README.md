@@ -1,19 +1,31 @@
+
+
 <!DOCTYPE html>
 <html>
+
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js">
+    </script>
+    
     <script>
         document.addEventListener("DOMContentLoaded", function(){
             document.body.innerHTML = marked(document.body.innerHTML)
         })
     </script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    
     <style>
         form {border: 1px outset; padding: 1em; max-width: 30em; display: inline-block;}
         html {margin: auto; padding: 1em; max-width: 90em; border: 1px outset; color:black;}
     </style>
+    
 </head>
+
+
 <body class='markdown-body'>
 
 ### Financial Data Extractor
@@ -23,7 +35,9 @@ https://extract-xml-5kwedaonla-uc.a.run.app/extract-xml.html
 
 ##### Demo
 
-<center><form enctype="multipart/form-data" method='post' action='/extract-xml'>
+
+<center>
+<form enctype="multipart/form-data" method='post' action='/extract-xml'>
     <input type='radio' name='input_type' value='url' checked> url to extract: <input name='url' type='url'> <br>
     <input type='radio' name='input_type' value='file'> file to extract: <input name='file' type='file'> <br>
     output
@@ -33,7 +47,9 @@ https://extract-xml-5kwedaonla-uc.a.run.app/extract-xml.html
     </select><br>
     <input type='submit'><br>
     Enter url or fila path to the xml document that you want to extract its financial tags.
-</form></center>
+</form>
+</center>
+
 
 ##### how to `get` it through browser?
 if you have the url to your file:
